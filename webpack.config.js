@@ -1,5 +1,6 @@
-module.exports = {
-    entry: "./src/index.tsx",
+
+var config = {
+    entry: "./src/app.tsx",
     output: {
         filename: "bundle.js",
         path: __dirname + "/dist"
@@ -32,3 +33,5 @@ module.exports = {
         "react-dom": "ReactDOM"
     },
 };
+
+module.exports = config;
